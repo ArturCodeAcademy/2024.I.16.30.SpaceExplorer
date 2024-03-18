@@ -7,6 +7,8 @@ public class RocketController : MonoBehaviour
 	[Header("Movement")]
 	[SerializeField, Min(0)] private float _movementForce = 1f;
 	[SerializeField, Min(0)] private float _rotationForce = 1f;
+	[SerializeField, Min(0)] private float _normalDrag = 0.1f;
+	[SerializeField, Min(0)] private float _highDrag = 1f;
 
 	[Header("Fuel usage")]
 	[SerializeField, Min(0)] private float _movementFuelUsagePerSecond = 1f;
@@ -28,6 +30,10 @@ public class RocketController : MonoBehaviour
 
 	private void FixedUpdate()
 	{
+		_rigidbody.drag = Input.GetKey(KeyCode.Space) && _fuelTank.FuelAmount > 0
+						? _highDrag
+						: _normalDrag;
+
 		if (_fuelTank.FuelAmount <= 0)
 		{
 			_movementFire.Stop();

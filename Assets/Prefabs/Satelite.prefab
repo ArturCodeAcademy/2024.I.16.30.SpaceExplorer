@@ -647,6 +647,8 @@ GameObject:
   - component: {fileID: 5545776767124719138}
   - component: {fileID: 7342141291530314148}
   - component: {fileID: 5521073944461877351}
+  - component: {fileID: 8592824254535815813}
+  - component: {fileID: -5583838824705355001}
   m_Layer: 0
   m_Name: Satelite
   m_TagString: Untagged
@@ -814,6 +816,34 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _health: {fileID: 9025409688563297284}
   _explosionPrefab: {fileID: 3161921355534504176, guid: 6f7d67add6144304ca9a8fc571a10662, type: 3}
+--- !u!114 &8592824254535815813
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5792282199454844807}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fa3988996c82abf42bfa6dd399df93b3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _minRotationSpeed: -5
+  _maxRotationSpeed: 5
+  _impulse: 1
+--- !u!114 &-5583838824705355001
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5792282199454844807}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4b0777d9902bdbd4bb6f120e71351177, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _satelite: {fileID: 4925608100089241236}
 --- !u!1 &7476294660449568380
 GameObject:
   m_ObjectHideFlags: 0

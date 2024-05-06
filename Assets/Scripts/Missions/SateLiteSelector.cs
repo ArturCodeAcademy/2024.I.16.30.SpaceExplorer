@@ -36,8 +36,8 @@ public class SateLiteSelector : MonoBehaviour
 		{
 			_target.Health.Died -= SelectRandomSatelite;
 
-			//if (_target.gameObject.TryGetComponent(out Interaction interaction))
-				//Destroy(interaction.gameObject);
+			if (_target.gameObject.TryGetComponent(out Interaction interaction))
+				Destroy(interaction.gameObject);
 		}
 
 		_target = SatelitePool.Instance[Random.Range(0, SatelitePool.Instance.SateliteCount)];

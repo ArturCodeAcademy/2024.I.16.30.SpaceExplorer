@@ -5379,7 +5379,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 169235132}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1097790583}
+        m_TargetAssemblyTypeName: PasswordGame, Assembly-CSharp
+        m_MethodName: AddDigit
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 9
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &169235132
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5500,7 +5512,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 192413786}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1097790583}
+        m_TargetAssemblyTypeName: PasswordGame, Assembly-CSharp
+        m_MethodName: AddDigit
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &192413786
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5621,7 +5645,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 221835832}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1097790583}
+        m_TargetAssemblyTypeName: PasswordGame, Assembly-CSharp
+        m_MethodName: AddDigit
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 5
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &221835832
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6010,7 +6046,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 270121379}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1097790583}
+        m_TargetAssemblyTypeName: PasswordGame, Assembly-CSharp
+        m_MethodName: AddDigit
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 1
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &270121379
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6233,7 +6281,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 277483866}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1097790583}
+        m_TargetAssemblyTypeName: PasswordGame, Assembly-CSharp
+        m_MethodName: AddDigit
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 8
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &277483866
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6354,7 +6414,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 291873187}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1097790583}
+        m_TargetAssemblyTypeName: PasswordGame, Assembly-CSharp
+        m_MethodName: CheckPassword
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &291873187
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8204,7 +8276,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 651223107}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1097790583}
+        m_TargetAssemblyTypeName: PasswordGame, Assembly-CSharp
+        m_MethodName: RemoveLetter
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &651223107
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14164,6 +14248,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1097790582}
+  - component: {fileID: 1097790583}
   m_Layer: 0
   m_Name: PasswordGame
   m_TagString: Untagged
@@ -14187,6 +14272,26 @@ Transform:
   - {fileID: 468270716}
   m_Father: {fileID: 826453441}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1097790583
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1097790581}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d62f6c3e817f8ec49960c33b11fe4941, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  GameFinishedSuccessfully:
+    m_PersistentCalls:
+      m_Calls: []
+  GameFinishedUnsuccessfully:
+    m_PersistentCalls:
+      m_Calls: []
+  _passwordText: {fileID: 1872388973}
+  _inputText: {fileID: 1781650736}
 --- !u!1 &1098173588
 GameObject:
   m_ObjectHideFlags: 0
@@ -14537,7 +14642,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1127473729}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1097790583}
+        m_TargetAssemblyTypeName: PasswordGame, Assembly-CSharp
+        m_MethodName: AddDigit
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 2
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1127473729
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14867,7 +14984,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1222577737}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1097790583}
+        m_TargetAssemblyTypeName: PasswordGame, Assembly-CSharp
+        m_MethodName: AddDigit
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 4
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1222577737
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -24830,7 +24959,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1437100848}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1097790583}
+        m_TargetAssemblyTypeName: PasswordGame, Assembly-CSharp
+        m_MethodName: AddDigit
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 7
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1437100848
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -25203,7 +25344,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1629201985}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1097790583}
+        m_TargetAssemblyTypeName: PasswordGame, Assembly-CSharp
+        m_MethodName: AddDigit
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 3
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1629201985
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -25804,7 +25957,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1833398270}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1097790583}
+        m_TargetAssemblyTypeName: PasswordGame, Assembly-CSharp
+        m_MethodName: AddDigit
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 6
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1833398270
 MonoBehaviour:
   m_ObjectHideFlags: 0
